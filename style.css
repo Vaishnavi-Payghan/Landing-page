@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(217, 225, 235);
+}
+.container{
+    background-color: rgb(250, 251, 253);
+    width: 90vw;
+    margin: 100px;
+    border-radius: 20px;
+    padding: 5px 100px;
+}
+
+.navbar{
+height:80px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.links li{
+    list-style: none;
+    margin-left:50px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: rgb(115, 140, 170);
+    font-weight: 500;
+}
+
+ul{
+    display: flex;
+}
+
+.logo h3{
+    font-size: 2rem;
+    color:rgb(7, 113, 242);
+}
+
+.content{
+    display: flex;
+    height: 80vh;
+    gap: 30px;
+}
+
+.img, .text{
+width:50%;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+img{
+    height: 300px;
+}
+
+.msg h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.page{
+    color:rgb(7, 113, 242);
+}
+
+.msg p{
+    color: rgb(115, 140, 170);
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.btn button{
+    padding:20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border: none;
+     margin-top: 30px;
+}
+
+.btn1{
+    background-color:rgb(7, 113, 242);
+    color:white;
+}
+
+.btn2{
+    color:rgb(7, 113, 242);
+    margin-left: 20px;
+}
+
