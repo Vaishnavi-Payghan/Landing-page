@@ -39,6 +39,10 @@ a{
     font-weight: 500;
 }
 
+a:hover{
+    color: rgb(7, 113, 242);
+}
+
 ul{
     display: flex;
 }
